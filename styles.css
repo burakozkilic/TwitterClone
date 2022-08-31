@@ -7,6 +7,7 @@
   body {
     --twitter-color: #50b7f5;
     --twitter-background: #e6ecf0;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   .sidebarOption {
@@ -21,7 +22,7 @@
   }
   
   .sidebarOption h2 {
-    font-weight: 800;
+    font-weight: 100;
     font-size: 20px;
     margin-right: 20px;
   }
@@ -91,7 +92,7 @@
   
   .feed__header h2 {
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 300;
   }
   
   .feed::-webkit-scrollbar {
@@ -137,7 +138,7 @@
     background-color: var(--twitter-color);
     border: none;
     color: white;
-    font-weight: 900;
+    font-weight: 100;
   
     border-radius: 30px;
     width: 80px;
@@ -167,8 +168,9 @@
   
   .post__footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 10px;
+    padding: 50;
   }
   
   .post__badge {
@@ -236,5 +238,5 @@
   
   .widgets__widgetContainer h2 {
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 100;
   }
